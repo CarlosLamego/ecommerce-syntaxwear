@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> SyntaxWear - Tenis e Sneakers Online</title>
-    <link rel="stylesheet" href="./css/base/reset.css">
+    <meta name="description"
+        content="Encontre os melhores tênis e sneakers online na SyntaxWear. Explore nossa coleção exclusiva de calçados para homens e mulheres, com designs modernos e conforto incomparável. Compre agora e transforme seu estilo com nossos produtos de alta qualidade.">
+        <link rel="stylesheet" href="./css/base/reset.css">
+        <link rel="stylesheet" href="./css/base/base.css">
     <link rel="stylesheet" href="./css/base/variables.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/hero.css">
-    <link rel="stylesheet" href="./css/base/body.css">
+    <link rel="stylesheet" href="css/components/product-category.css">
 
 </head>
 
@@ -18,10 +21,11 @@
     <header class="header">
         <!-- Logo e navegação -->
         <h1 class="logo">
-            <a href="/">
+            <a href="/" title="SyntaxWear - Tênis e Sneakers Online">
                 <img src="assets/images/icons/logo.svg" alt="Logo SyntaxWear - Tenis e Sneakers Online">
             </a>
         </h1>
+
         <nav class="nav-center" aria-label="Categorias Principais">
             <ul>
                 <li><a href="#">Masculino</a></li>
@@ -29,13 +33,14 @@
                 <li><a href="#">Outlet</a></li>
             </ul>
         </nav>
+
         <nav class="nav-right" aria-label="Menu de Acesso Rápido">
             <ul>
                 <li><a href="#">Nossas lojas</a></li>
                 <li><a href="#">Sobre</a></li>
-                <li><a href="#"><img src="assets/images/icons/user.svg" alt="Usuário"></a></li>
-                <li><a href="#"><img src="assets/images/icons/help.svg" alt="Ajuda"></a></li>
-                <li><a href="#"><img src="assets/images/icons/bag.svg" alt="Sacola"></a></li>
+                <li><a href="#" aria-label="Minha conta"><img src="assets/images/icons/user.svg" alt="Usuário"></a></li>
+                <li><a href="#" aria-label="Ajuda"><img src="assets/images/icons/help.svg" alt="Ajuda"></a></li>
+                <li><a href="#" aria-label="Carrinho"><img src="assets/images/icons/bag.svg" alt="Sacola"></a></li>
             </ul>
         </nav>
     </header>
@@ -44,20 +49,43 @@
         <section class="hero-section">
             <!-- Seção Hero -->
             <div class="hero-overlay">
-
                 <div class="hero-content">
                     <span class="hero-subtitle">Krypton One</span>
                     <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
                     <div class="hero-buttons">
                         <a href="#" class="btn btn-outline">Ver modelos</a>
-                        <a href="#" class="btn btn-filled">Compras</a>
+                        <a href="#" class="btn btn-filled">Comprar</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="categorias">
+        <section class="categories-section">
             <!-- Seção de categorias de tênis -->
+            <div class="category-card casual">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn-outline  btn">Casual</span>
+                </a>
+            </div>
+            <div class="category-card esporte">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn-outline  btn">Esporte</span>
+                </a>
+            </div>
+            <div class="category-card moderno">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn-outline  btn">Moderno</span>
+                </a>
+            </div>
+            <div class="category-card futurista">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn-outline  btn">Futurista</span>
+                </a>
+            </div>
         </section>
 
         <section class="produtos-destaque">
