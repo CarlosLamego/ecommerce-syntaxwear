@@ -1,0 +1,77 @@
+.card {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+}
+
+.highlight {
+    grid-area: highlight;
+    background-image: url(../../assets/images/products/highlight.jpg);
+}
+
+.sneacker-purple {
+    grid-area: sneacker-purple;
+    background-image: url(../../assets/images/products/roxo-e-verde-grid.jpg);
+}
+
+.model {
+    grid-area: model;
+    background-image: url(../../assets/images/products/modelo-grid.jpg);
+}
+
+.sneacker-color {
+    grid-area: sneacker-color;
+    background-image: url(../../assets/images/products/futurista-grid.jpg);
+
+}
+
+.sneacker-white {
+    grid-area: sneacker-white;
+    background-image: url(../../assets/images/products/preto-branco-grid.jpg);
+}
+
+.sneacker-silver {
+    grid-area: sneacker-silver;
+    background-image: url(../../assets/images/products/esporte-grid.jpg);
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+        "highlight highlight sneacker-purple sneacker-purple"
+        "highlight highlight model sneacker-color"
+        "sneacker-white sneacker-white model sneacker-silver";
+    gap: 30px;
+}
+
+.top1-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 400;;
+    color: #EDEDED;
+    margin-bottom: 10px;
+}
+
+.card-subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #EDEDED;
+        margin-bottom: 20px;
+}
+
+.cta-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
