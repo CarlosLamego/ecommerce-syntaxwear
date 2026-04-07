@@ -23,7 +23,7 @@
 
 .hero-buttons {
     display: flex;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .hero-content .hero-title {

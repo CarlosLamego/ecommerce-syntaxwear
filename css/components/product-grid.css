@@ -45,7 +45,7 @@
         "highlight highlight sneacker-purple sneacker-purple"
         "highlight highlight model sneacker-color"
         "sneacker-white sneacker-white model sneacker-silver";
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .top1-content {
@@ -72,6 +72,6 @@
 
 .cta-group {
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
     justify-content: center;
 }
