@@ -21,3 +21,20 @@ main {
     transition: background-color 0.3s, border 0.3s;
 }
 
+.btn-outline{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    line-height: 23px;
+}
+
+.btn-filled{
+    background-color: #ffffff;
+    color: #6329A2;
+}
+
+.btn:hover{
+    background-color: #6329A2;
+    color: #ffffff;
+    border-color: #6329A2;
+}
+
