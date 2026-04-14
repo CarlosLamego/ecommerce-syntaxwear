@@ -56,3 +56,28 @@
     color: #fff;
     border-color: #6329A2;
 }
+
+@media (max-width:768px) {
+   .hero-section{
+    height: 660px;
+    background-image: url(../../assets/images/banners/hero-mobile.jpg);
+   }
+
+   .hero-overlay {
+    padding: 0;
+    justify-content: center;
+   }
+
+   .hero-content .hero-title {
+    font-size: 1.5rem;
+   }
+
+   .hero-content {
+    max-width: 330px;
+    margin: 0 auto;
+   }
+
+   .btn {
+    font-size: 1.2rem;
+   }
+}
